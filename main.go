@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Número para el cual queremos imprimir la tabla de multiplicar
-	numero := 5
+	for numero := 1; numero <= 9; numero++ 
 
 	// Imprimimos la tabla de multiplicar del número
 	fmt.Println("Tabla de multiplicar del", numero, ":")
@@ -12,4 +12,5 @@ func main() {
 		resultado := numero * i
 		fmt.Printf("%d x %d = %d\n", numero, i, resultado)
 	}
+
 }
