@@ -6,15 +6,15 @@ var b string
 var resultado2 int
 
 func main() {
-	// Número para el cual queremos imprimir la tabla de multiplicar
+	 Número para el cual queremos imprimir la tabla de multiplicar
 	numero1 := 10
 	result := factorial(numero1)
 	fmt.Println(result)
-	//numero2 := 9
-	//result := multiplicar(numero1, numero2)
-	//fmt.Println(result)
-	//result2 := Isprimo(numero1)
-	//fmt.Println(result2)
+	numero2 := 9
+	result := multiplicar(numero1, numero2)
+	fmt.Println(result)
+	result2 := Isprimo(numero1)
+	fmt.Println(result2)
 
 }
 
@@ -22,7 +22,7 @@ func multiplicar(numero1, numero2 int) string {
 
 	for numero := numero1; numero <= numero2; numero++ {
 
-		// Imprimimos la tabla de multiplicar del número
+		 Imprimimos la tabla de multiplicar del número
 		fmt.Println("Tabla de multiplicar del", numero, ":")
 		for i := 1; i <= 10; i++ {
 			resultado := numero * i
