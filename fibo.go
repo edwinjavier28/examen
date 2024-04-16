@@ -20,7 +20,7 @@ func fibonacci(n int) []int {
 
 func main() {
 	// Número de términos de Fibonacci que queremos generar
-	terminos := 10
+	terminos := 30
 
 	// Generamos los primeros n términos de Fibonacci
 	fib := fibonacci(terminos)
