@@ -15,7 +15,7 @@ func factorial(n int) int {
 
 func main() {
 	// Número para calcular el factorial
-	numero := 5
+	numero := 9
 
 	// Calculamos el factorial del número
 	resultado := factorial(numero)
