@@ -26,7 +26,7 @@ func esPrimo(numero int) bool {
 
 func main() {
 	// Número para verificar si es primo
-	numero := 17
+	numero := 20
 
 	// Verificamos si el número es primo
 	if esPrimo(numero) {
