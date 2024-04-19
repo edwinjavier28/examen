@@ -12,5 +12,5 @@ func main() {
 	//Se realiza la suma
 	suma := numero + numero1
 	//Resultado de la suma
-	fmt.Printf("%d mas %d da como resultado %d/", numero, numero1, suma)
+	fmt.Printf("%d mas %d da como resultado %d", numero, numero1, suma)
 }
