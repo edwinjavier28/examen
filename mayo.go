@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// Definimos dos números
-	numero1 := 589
+	numero1 := 1353
 	numero2 := 1354
 
 	// Verificamos si numero1 es mayor que numero2
