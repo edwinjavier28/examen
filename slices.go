@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main14() {
 	letras := []string{"a", "f", "r", "t", "y", "f", "a", "c", "e", "w", "q"}
 	//elementos := []int{9, 13, 8, 1, 51, 30, 11, 29}
 	a := prinLetters(letras)
