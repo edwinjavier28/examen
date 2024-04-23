@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main15() {
 	// Definir los elementos que quieres añadir al slice
 	elementos := []int{1, 2, 3, 4, 5, 6, 7, 8}
 
