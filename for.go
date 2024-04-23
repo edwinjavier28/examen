@@ -5,13 +5,13 @@ import "fmt"
 var i int
 var secuencia int
 
-func main() {
+func main4() {
 	//Definir los numeros de la secuencia
 	numero1 := 3
 	numero2 := 10
 
 	//Imprimimos resultados
-	fmt.Printf("la secuencia entre %d y %d da como resultado", numero1, numero2)
+	fmt.Printf("la secuencia entre %d y %d da como resultado\n", numero1, numero2)
 
 	//Realizamos la secuencia
 

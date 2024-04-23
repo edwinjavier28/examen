@@ -4,7 +4,7 @@ import "fmt"
 
 var resta int
 
-func main() {
+func main9() {
 	//Se definen los numeros de la resta
 	numero1 := 33
 	numero2 := 11

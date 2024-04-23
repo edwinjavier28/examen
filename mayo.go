@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main7() {
 	// Definimos dos números
 	numero1 := 1353
 	numero2 := 1354

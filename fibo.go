@@ -18,7 +18,7 @@ func fibonacci(n int) []int {
 	return fib
 }
 
-func main() {
+func main3() {
 	// Número de términos de Fibonacci que queremos generar
 	terminos := 33
 

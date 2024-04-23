@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main8() {
 	//Se describen los dos numeros
 	numero1 := 3
 	numero2 := 3

@@ -4,7 +4,7 @@ import "fmt"
 
 var suma int
 
-func main() {
+func main2() {
 	//Se definen los numeros a sumar
 	numero := 8
 	numero1 := 10

@@ -13,7 +13,7 @@ func factorial(n int) int {
 	return n * factorial(n-1)
 }
 
-func main() {
+func main5() {
 	// Número para calcular el factorial
 	numero := 9
 

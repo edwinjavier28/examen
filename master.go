@@ -24,7 +24,7 @@ func esPrimo(numero int) bool {
 	return true
 }
 
-func main() {
+func main6() {
 	// Número para verificar si es primo
 	numero := 23
 
