@@ -13,5 +13,5 @@ func main() {
 	copy(slice, elementos)
 
 	// Imprimir el slice
-	fmt.Println("Slice:", slice)
+	fmt.Println("Vector:", slice)
 }
