@@ -6,7 +6,7 @@ var division int
 var numero1 int
 var numero2 int
 
-func main() {
+func main8() {
 	//Se ingresan los dos numeros para la division
 	numero1 := 9
 	numero2 := 3
