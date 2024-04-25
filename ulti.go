@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func sumarVector(vector []int) int {
+func sumarVector1(vector []int) int {
 	suma := 0
 	for _, elemento := range vector {
 		suma += elemento
@@ -10,13 +10,13 @@ func sumarVector(vector []int) int {
 	return suma
 }
 
-func main() {
+func main20() {
 	// Definir un vector de ejemplo
-	vector := []int{1, 2, 3, 4, 5}
+	vector := []int{19, 2, 3, 5, 10}
 
 	// Calcular la suma de los elementos del vector
-	suma := sumarVector(vector)
+	suma := sumarVector1(vector)
 
 	// Mostrar el resultado
-	fmt.Printf("La suma de los elementos del vector es: %d\n", suma)
+	fmt.Printf("La suma de los elementos del vector es: %d", suma)
 }
