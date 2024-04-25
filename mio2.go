@@ -1,8 +1,10 @@
 package main
 
 import "fmt"
+var suma int
 
-func main() {
+func main20() {
+	
 	elementos := []int{1, 2, 3, 4, 5, 7, 8, 9, 0}
 	caracteres := []string{"a, b, c, d, e, g, h, i, j"}
 	slice := make([]int, len(elementos))
@@ -10,4 +12,16 @@ func main() {
 	copy(slice, elementos)
 	copy(slice2, caracteres)
 	fmt.Println("Slice1\n", elementos, "\n", "Slice2", "\n", caracteres)
+
+func make(elementos[] int) int {
+	suma := 0
+	for _, elementos := range slice {
+		suma += elementos[]
+		
+	}
+	return suma
+	suma := make(elementos)
+	fmt.Printf("La suma de los elementos del vector es: %d\n", suma)
+	
+}	
 }
