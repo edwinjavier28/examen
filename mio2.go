@@ -43,7 +43,7 @@ func recorrerStrings(caracteres []string) string {
 	return normal
 
 }
-func main() {
+func main21() {
 
 	elementos := []int{1, 2, 3, 4, 5, 7, 8, 9, 0}
 	caracteres := []string{"r", "a", "t", "o", "n"}
