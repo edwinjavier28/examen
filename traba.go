@@ -12,7 +12,7 @@ func compararNumeros(numeros []int) int {
 	return secuencial
 }
 
-func main() {
+func main23() {
 	numeros := []int{3, 78, 1000, 2000, 3000, 0, 4, 8}
 
 	fmt.Println("el numero mayor es", compararNumeros(numeros))
