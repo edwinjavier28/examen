@@ -27,10 +27,9 @@ func (lista *ListaEnlazada) Insertar(letra string) {
 func (lista *ListaEnlazada) Mostrar() {
 	actual := lista.cabeza
 	for actual != nil {
-		fmt.Println("-> ", actual.letra)
+		fmt.Println("=>", actual.letra)
 		actual = actual.siguiente
 	}
-	fmt.Println("fin")
 }
 
 func main() {
@@ -38,5 +37,7 @@ func main() {
 	lista.Insertar("A")
 	lista.Insertar("B")
 	lista.Insertar("C")
+	lista.Insertar("D")
+	lista.Insertar("E")
 	lista.Mostrar()
 }
