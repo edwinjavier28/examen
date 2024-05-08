@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main24() {
 
 	c := new(Audifonos)
 	audifono_L := c.NewAudifonos("rojo", 10, "L", "Bose", "F1")
