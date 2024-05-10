@@ -32,7 +32,7 @@ func (lista *ListaEnlazada) Mostrar() {
 	}
 }
 
-func main() {
+func main25() {
 	lista := ListaEnlazada{}
 	lista.Insertar("A")
 	lista.Insertar("B")
