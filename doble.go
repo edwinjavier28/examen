@@ -3,20 +3,20 @@ package main
 import "fmt"
 
 // Definición de un nodo para la lista doblemente enlazada
-type Nodo struct {
+type Nodo1 struct {
 	caracter  string
 	siguiente *Nodo
 	anterior  *Nodo
 }
 
 // Definición de la lista doblemente enlazada
-type ListaDoblementeEnlazada struct {
+type ListaDoblementeEnlazada1 struct {
 	cabeza *Nodo
 	cola   *Nodo
 }
 
 // Método para insertar un nuevo nodo al principio de la lista
-func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio(caracter string) {
+func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio1(caracter string) {
 	nuevoNodo := &Nodo{caracter: caracter}
 	if lista.cabeza == nil {
 		lista.cabeza = nuevoNodo
@@ -29,7 +29,7 @@ func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio(caracter string) {
 }
 
 // Método para mostrar la lista en sentido hacia adelante
-func (lista *ListaDoblementeEnlazada) MostrarHaciaAdelante() {
+func (lista *ListaDoblementeEnlazada) MostrarHaciaAdelante1() {
 	actual := lista.cabeza
 	for actual != nil {
 		fmt.Println("=>", actual.caracter)
@@ -39,7 +39,7 @@ func (lista *ListaDoblementeEnlazada) MostrarHaciaAdelante() {
 }
 
 // Método para mostrar la lista en sentido hacia atrás
-func (lista *ListaDoblementeEnlazada) MostrarHaciaAtras() {
+func (lista *ListaDoblementeEnlazada) MostrarHaciaAtras1() {
 	actual := lista.cola
 	for actual != nil {
 		fmt.Println("=>", actual.caracter)
@@ -48,7 +48,7 @@ func (lista *ListaDoblementeEnlazada) MostrarHaciaAtras() {
 
 }
 
-func main() {
+func main27() {
 	lista := ListaDoblementeEnlazada{}
 
 	// Insertar algunos nodos al principio de la lista
@@ -60,9 +60,9 @@ func main() {
 
 	// Mostrar la lista en sentido hacia adelante
 	fmt.Println("Lista hacia adelante:")
-	lista.MostrarHaciaAdelante()
+	lista.MostrarHaciaAdelante1()
 
 	// Mostrar la lista en sentido hacia atrás
 	fmt.Println("Lista hacia atrás:")
-	lista.MostrarHaciaAtras()
+	lista.MostrarHaciaAtras1()
 }

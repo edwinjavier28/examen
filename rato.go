@@ -11,18 +11,18 @@ type ListaEnlazada struct {
 	cabeza *Nodo
 }
 
-func (lista *ListaEnlazada) Insertar(letra string) {
-	nuevoNodo := &Nodo1{letra: letra}
-	if lista.cabeza == nil {
-		lista.cabeza = nuevoNodo
-	} else {
-		actual1 := lista.cabeza
-		for actual.siguiente != nil {
-			actual = actual.siguiente
-		}
-		actual1.siguiente = nuevoNodo
-	}
-}
+//func (lista *ListaEnlazada) Insertar(letra string) {
+//	nuevoNodo := &Nodo1{letra: letra}
+//	if lista.cabeza == nil {
+//		lista.cabeza = nuevoNodo
+//	} else {
+//		actual1 := lista.cabeza
+//		for actual.siguiente != nil {
+//			actual = actual.siguiente
+//		}
+//		actual1.siguiente = nuevoNodo
+//	}
+//}
 
 func (lista *ListaEnlazada) Mostrar() {
 	actual := lista.cabeza
