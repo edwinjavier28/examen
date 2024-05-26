@@ -4,7 +4,7 @@ import "fmt"
 
 // Definición de un nodo para la lista doblemente enlazada
 type Nodo struct {
-	valor     int
+	caracter  string
 	siguiente *Nodo
 	anterior  *Nodo
 }
@@ -16,8 +16,8 @@ type ListaDoblementeEnlazada struct {
 }
 
 // Método para insertar un nuevo nodo al principio de la lista
-func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio(valor int) {
-	nuevoNodo := &Nodo{valor: valor}
+func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio(caracter string) {
+	nuevoNodo := &Nodo{caracter: caracter}
 	if lista.cabeza == nil {
 		lista.cabeza = nuevoNodo
 		lista.cola = nuevoNodo
@@ -32,29 +32,31 @@ func (lista *ListaDoblementeEnlazada) InsertarAlPrincipio(valor int) {
 func (lista *ListaDoblementeEnlazada) MostrarHaciaAdelante() {
 	actual := lista.cabeza
 	for actual != nil {
-		fmt.Printf("%d -> ", actual.valor)
+		fmt.Println("=>", actual.caracter)
 		actual = actual.siguiente
 	}
-	fmt.Println("nil")
+
 }
 
 // Método para mostrar la lista en sentido hacia atrás
 func (lista *ListaDoblementeEnlazada) MostrarHaciaAtras() {
 	actual := lista.cola
 	for actual != nil {
-		fmt.Printf("%d -> ", actual.valor)
+		fmt.Println("=>", actual.caracter)
 		actual = actual.anterior
 	}
-	fmt.Println("nil")
+
 }
 
 func main() {
 	lista := ListaDoblementeEnlazada{}
 
 	// Insertar algunos nodos al principio de la lista
-	lista.InsertarAlPrincipio(3)
-	lista.InsertarAlPrincipio(2)
-	lista.InsertarAlPrincipio(1)
+	lista.InsertarAlPrincipio("E")
+	lista.InsertarAlPrincipio("D")
+	lista.InsertarAlPrincipio("C")
+	lista.InsertarAlPrincipio("B")
+	lista.InsertarAlPrincipio("A")
 
 	// Mostrar la lista en sentido hacia adelante
 	fmt.Println("Lista hacia adelante:")

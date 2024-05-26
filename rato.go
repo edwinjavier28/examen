@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-type Nodo struct {
+type Nodo1 struct {
 	letra     string
 	siguiente *Nodo
 }
@@ -12,15 +12,15 @@ type ListaEnlazada struct {
 }
 
 func (lista *ListaEnlazada) Insertar(letra string) {
-	nuevoNodo := &Nodo{letra: letra}
+	nuevoNodo := &Nodo1{letra: letra}
 	if lista.cabeza == nil {
 		lista.cabeza = nuevoNodo
 	} else {
-		actual := lista.cabeza
+		actual1 := lista.cabeza
 		for actual.siguiente != nil {
 			actual = actual.siguiente
 		}
-		actual.siguiente = nuevoNodo
+		actual1.siguiente = nuevoNodo
 	}
 }
 
