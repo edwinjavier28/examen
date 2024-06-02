@@ -53,7 +53,7 @@ func (lista *ListaDoblementeEnlazada) MostrarHaciaAtras() {
 	}
 
 }
-func main() {
+func main28() {
 	//Primer arreglo
 	numeros := []int{7, 2, 9, 4, 3, 8, 1, 6, 5}
 

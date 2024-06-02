@@ -10,7 +10,7 @@ type Person struct {
 	Edad   int
 }
 
-func main() {
+func main00() {
 	personas := []Person{
 		{"An", 25},
 		{"Luis", 30},

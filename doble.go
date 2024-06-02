@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // Definición de un nodo para la lista doblemente enlazada
-type Nodo1 struct {
+type Nodo struct {
 	caracter  string
 	siguiente *Nodo
 	anterior  *Nodo
